@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDispToSubContMultiPrint" targetNamespace="http://tempuri.org/dsDispToSubContMultiPrint.xsd" xmlns:mstns="http://tempuri.org/dsDispToSubContMultiPrint.xsd" xmlns="http://tempuri.org/dsDispToSubContMultiPrint.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDispToSubContMultiPrint" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtDispToSubCont">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="I_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="P_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="P_ADD1" type="xs:string" minOccurs="0" />
+              <xs:element name="P_VEND_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="INM_TRANSPORT" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_VEH_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_PO_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IND_INQTY" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="I_UOM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="IND_ACT_WEIGHT" type="xs:double" minOccurs="0" />
+              <xs:element name="E_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="E_COMMODITY" type="xs:string" minOccurs="0" />
+              <xs:element name="E_TARIFF_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_ISSUE_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="P_GST_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="SM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SM_STATE_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOD_DISC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOD_DISC_PER" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOD_EXC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOD_EXC_E_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOD_EXC_HE_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOD_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOM_PONO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="PROCESS_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="IND_PROCESS_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="CGST" type="xs:double" minOccurs="0" />
+              <xs:element name="SGST" type="xs:double" minOccurs="0" />
+              <xs:element name="IGST" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="NoOfCopy57A4">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="INM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="INM_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_SEQNO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="NoOfCopy57A4_dtDispToSubCont" msdata:parent="NoOfCopy57A4" msdata:child="dtDispToSubCont" msdata:parentkey="INM_CODE" msdata:childkey="INM_CODE" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

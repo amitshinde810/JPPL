@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsEffectOfCAPA" targetNamespace="http://tempuri.org/dsEffectOfCAPA.xsd" xmlns:mstns="http://tempuri.org/dsEffectOfCAPA.xsd" xmlns="http://tempuri.org/dsEffectOfCAPA.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsEffectOfCAPA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsEffectOfCAPA">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CRM_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="CRM_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="CRM_COMPLAINT_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CRD_DEF_OBSERVED" type="xs:string" minOccurs="0" />
+              <xs:element name="CRD_ROUTE_CAUSE" type="xs:string" minOccurs="0" />
+              <xs:element name="CRD_ACTION_TAKEN" type="xs:string" minOccurs="0" />
+              <xs:element name="CRD_FILE" type="xs:string" minOccurs="0" />
+              <xs:element name="CRD_REASON" type="xs:string" minOccurs="0" />
+              <xs:element name="JAN" type="xs:string" minOccurs="0" />
+              <xs:element name="FEB" type="xs:string" minOccurs="0" />
+              <xs:element name="MAR" type="xs:string" minOccurs="0" />
+              <xs:element name="APR" type="xs:string" minOccurs="0" />
+              <xs:element name="MAY" type="xs:string" minOccurs="0" />
+              <xs:element name="JUN" type="xs:string" minOccurs="0" />
+              <xs:element name="JUL" type="xs:string" minOccurs="0" />
+              <xs:element name="AUG" type="xs:string" minOccurs="0" />
+              <xs:element name="SEP" type="xs:string" minOccurs="0" />
+              <xs:element name="OCT" type="xs:string" minOccurs="0" />
+              <xs:element name="NOV" type="xs:string" minOccurs="0" />
+              <xs:element name="DEC" type="xs:string" minOccurs="0" />
+              <xs:element name="CRM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CRMDATE1" type="xs:string" minOccurs="0" />
+              <xs:element name="YesOrNo" type="xs:string" minOccurs="0" />
+              <xs:element name="CRD_TYPE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

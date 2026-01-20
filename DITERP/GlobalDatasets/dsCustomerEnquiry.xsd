@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCustomerEnquiry" targetNamespace="http://tempuri.org/dsCustomerEnquiry.xsd" xmlns:mstns="http://tempuri.org/dsCustomerEnquiry.xsd" xmlns="http://tempuri.org/dsCustomerEnquiry.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCustomerEnquiry" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtEnquiry">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="INQ_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_GLOSS" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_SHADE_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_CUST_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_SHADE_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_SHADE_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_REQ_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="INQ_REQ_BY" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_DES_DUE_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="INQ_END_USE" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_SUBRTATE" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_PRIMER_DFT" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_VOL_SOLID" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_DFT" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_PMT" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_CUST_SPEC" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_NOTE" type="xs:string" minOccurs="0" />
+              <xs:element name="INQ_COMP_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="INQ_QT_FLAG" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

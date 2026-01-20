@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FillOffSheet" targetNamespace="http://tempuri.org/FillOffSheet.xsd" xmlns:mstns="http://tempuri.org/FillOffSheet.xsd" xmlns="http://tempuri.org/FillOffSheet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="FillOffSheet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtFillOffSheet">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BT_NO" type="xs:int" minOccurs="0" />
+              <xs:element name="SHM_FORMULA_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="QTY_IN_LTR" type="xs:double" minOccurs="0" />
+              <xs:element name="WEIGHT_IN_KG" msdata:Caption="DataColumn1" type="xs:double" minOccurs="0" />
+              <xs:element name="FOS_APPROVED_BY" msdata:Caption="DataColumn2" type="xs:string" minOccurs="0" />
+              <xs:element name="FOS_SPECIAL_INSTR" msdata:Caption="DataColumn3" type="xs:string" minOccurs="0" />
+              <xs:element name="FOS_DATE" msdata:Caption="DataColumn4" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FOS_FILL_BY" msdata:Caption="DataColumn5" type="xs:string" minOccurs="0" />
+              <xs:element name="FOS_FILL_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FOSD_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="Type_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="FOSD_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="FOSD_WGT" type="xs:double" minOccurs="0" />
+              <xs:element name="UOM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="FOS_FINAL_YIELD" type="xs:double" minOccurs="0" />
+              <xs:element name="FOS_NOTES" type="xs:string" minOccurs="0" />
+              <xs:element name="FOS_FILTER_USED" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

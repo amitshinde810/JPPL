@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsStockLedger" targetNamespace="http://tempuri.org/dsStockLedger.xsd" xmlns:mstns="http://tempuri.org/dsStockLedger.xsd" xmlns="http://tempuri.org/dsStockLedger.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsStockLedger" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtStockLedger">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STL_DOC_NUMBER" type="xs:int" minOccurs="0" />
+              <xs:element name="STL_CODE" type="xs:double" minOccurs="0" />
+              <xs:element name="STL_DOC_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="STL_DOC_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="STL_DOC_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="STL_I_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="ADD_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="REM_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="OpenStoc" type="xs:double" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CAT_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_INV_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="I_UWEIGHT" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

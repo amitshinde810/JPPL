@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsInsertnalReject" targetNamespace="http://tempuri.org/dsInsertnalReject.xsd" xmlns:mstns="http://tempuri.org/dsInsertnalReject.xsd" xmlns="http://tempuri.org/dsInsertnalReject.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsInsertnalReject" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtInsertnalReject">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="jan" type="xs:string" minOccurs="0" />
+              <xs:element name="feb" type="xs:string" minOccurs="0" />
+              <xs:element name="mar" type="xs:string" minOccurs="0" />
+              <xs:element name="apr" type="xs:string" minOccurs="0" />
+              <xs:element name="may" type="xs:string" minOccurs="0" />
+              <xs:element name="jun" type="xs:string" minOccurs="0" />
+              <xs:element name="jul" type="xs:string" minOccurs="0" />
+              <xs:element name="aug" type="xs:string" minOccurs="0" />
+              <xs:element name="sep" type="xs:string" minOccurs="0" />
+              <xs:element name="oct" type="xs:string" minOccurs="0" />
+              <xs:element name="nov" type="xs:string" minOccurs="0" />
+              <xs:element name="dec" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

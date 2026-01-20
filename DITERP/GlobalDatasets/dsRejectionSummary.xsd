@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRejectionSummary" targetNamespace="http://tempuri.org/dsRejectionSummary.xsd" xmlns:mstns="http://tempuri.org/dsRejectionSummary.xsd" xmlns="http://tempuri.org/dsRejectionSummary.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRejectionSummary" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsRejectionSummary">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="I_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="R1" type="xs:double" minOccurs="0" />
+              <xs:element name="R2" type="xs:double" minOccurs="0" />
+              <xs:element name="R3" type="xs:double" minOccurs="0" />
+              <xs:element name="R4A_CASTING" type="xs:double" minOccurs="0" />
+              <xs:element name="R4A_MECHINING" type="xs:double" minOccurs="0" />
+              <xs:element name="R4_CASTING" type="xs:double" minOccurs="0" />
+              <xs:element name="R4_MECHINING" type="xs:double" minOccurs="0" />
+              <xs:element name="R5_CASTING" type="xs:double" minOccurs="0" />
+              <xs:element name="R5_MECHINING" type="xs:double" minOccurs="0" />
+              <xs:element name="R6_CASTING" type="xs:double" minOccurs="0" />
+              <xs:element name="R6_MECHINING" type="xs:double" minOccurs="0" />
+              <xs:element name="ONDATE_PROD" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_PROD" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R1" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R2" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R3" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R4A_CASTING" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R4A_MECHINING" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R4_CASTING" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R4_MECHINING" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R5_CASTING" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R5_MECHINING" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R6_CASTING" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R6_MECHINING" type="xs:double" minOccurs="0" />
+              <xs:element name="R1_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="R2_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="R3_AMT" msdata:Caption="DataColumn3" type="xs:double" minOccurs="0" />
+              <xs:element name="R4A_CASTING_AMT" msdata:Caption="DataColumn4" type="xs:double" minOccurs="0" />
+              <xs:element name="R4A_MECHINING_AMT" msdata:Caption="DataColumn5" type="xs:double" minOccurs="0" />
+              <xs:element name="R4_CASTING_AMT" msdata:Caption="DataColumn6" type="xs:double" minOccurs="0" />
+              <xs:element name="R4_MECHINING_AMT" msdata:Caption="DataColumn7" type="xs:double" minOccurs="0" />
+              <xs:element name="R5_CASTING_AMT" msdata:Caption="DataColumn8" type="xs:double" minOccurs="0" />
+              <xs:element name="R5_MECHINING_AMT" msdata:Caption="DataColumn9" type="xs:double" minOccurs="0" />
+              <xs:element name="R6_CASTING_AMT" msdata:Caption="DataColumn10" type="xs:double" minOccurs="0" />
+              <xs:element name="R6_MECHINING_AMT" msdata:Caption="DataColumn11" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R1_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R2_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R3_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R4A_CASTING_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R4A_MECHINING_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R4_CASTING_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R4_MECHINING_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R5_CASTING_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R5_MECHINING_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R6_CASTING_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMM_R6_MECHINING_AMT" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLogMaster" targetNamespace="http://tempuri.org/dsLogMaster.xsd" xmlns:mstns="http://tempuri.org/dsLogMaster.xsd" xmlns="http://tempuri.org/dsLogMaster.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLogMaster" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LogMaster">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LG_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="LG_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LG_SOURCE" type="xs:string" minOccurs="0" />
+              <xs:element name="LG_EVENT" type="xs:string" minOccurs="0" />
+              <xs:element name="LG_COMP_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="LG_DOC_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="LG_U_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="LG_IP_ADDRESS" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

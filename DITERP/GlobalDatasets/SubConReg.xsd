@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SubConReg" targetNamespace="http://tempuri.org/SubConReg.xsd" xmlns:mstns="http://tempuri.org/SubConReg.xsd" xmlns="http://tempuri.org/SubConReg.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SubConReg" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SubConReg">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_PO_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_AMOUNT" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOD_ORDER_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOD_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOD_DISC_PER" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOD_DISC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOD_TOTAL_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOD_INW_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOM_PONO" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOD_COSTWEIGHT" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOD_FINISHWEIGHT" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOD_TURNINGWEIGHT" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

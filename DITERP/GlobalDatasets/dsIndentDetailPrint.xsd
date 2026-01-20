@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsIndentDetailPrint" targetNamespace="http://tempuri.org/dsIndentDetailPrint.xsd" xmlns:mstns="http://tempuri.org/dsIndentDetailPrint.xsd" xmlns="http://tempuri.org/dsIndentDetailPrint.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsIndentDetailPrint" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtIndentDetailPrint">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="INM_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_TNO" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_PRO_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="DM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_SUPP_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_CONTACT" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_ADDRESS" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_EMAIL" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_MOB" type="xs:string" minOccurs="0" />
+              <xs:element name="IND_DESC" type="xs:string" minOccurs="0" />
+              <xs:element name="IND_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="IN_PAYMENT" type="xs:string" minOccurs="0" />
+              <xs:element name="UM_USERNAME" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_AUTHORIZE" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_APPROVE" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_APPROVEBY" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_AUTHORIZEBY" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_AUTHORIZE1" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_AUTHORIZEBY1" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

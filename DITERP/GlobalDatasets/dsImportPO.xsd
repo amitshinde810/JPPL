@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsImportPO" targetNamespace="http://tempuri.org/dsImportPO.xsd" xmlns:mstns="http://tempuri.org/dsImportPO.xsd" xmlns="http://tempuri.org/dsImportPO.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsImportPO" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtSuppPoPrint">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SPOM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="P_ADD1" type="xs:string" minOccurs="0" />
+              <xs:element name="P_PHONE" type="xs:string" minOccurs="0" />
+              <xs:element name="P_PAN" type="xs:string" minOccurs="0" />
+              <xs:element name="P_CST" type="xs:string" minOccurs="0" />
+              <xs:element name="P_VAT" type="xs:string" minOccurs="0" />
+              <xs:element name="P_ECC_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="P_EXC_DIV" type="xs:string" minOccurs="0" />
+              <xs:element name="P_EXC_RANGE" type="xs:string" minOccurs="0" />
+              <xs:element name="P_EXC_COLLECTORATE" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_PO_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="I_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_MATERIAL" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOD_ORDER_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOD_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOD_AMOUNT" type="xs:double" minOccurs="0" />
+              <xs:element name="ST_TAX_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="ST_SALES_TAX" type="xs:double" minOccurs="0" />
+              <xs:element name="I_E_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="E_BASIC" type="xs:double" minOccurs="0" />
+              <xs:element name="E_EDU_CESS" type="xs:double" minOccurs="0" />
+              <xs:element name="E_H_EDU" type="xs:double" minOccurs="0" />
+              <xs:element name="SPOM_DELIVERED_TO" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_TRANSPOTER" type="xs:string" minOccurs="0" />
+              <xs:element name="SOM_FREIGHT_TERM" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_PAY_TERM1" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_DEL_SHCEDULE" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_NOTES" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_GUARNTY" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOD_EXC_Y_N" type="xs:boolean" minOccurs="0" />
+              <xs:element name="P_CONTACT" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_SUP_REF_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="P_MOB" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOD_SPECIFICATION" type="xs:string" minOccurs="0" />
+              <xs:element name="I_UOM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_CURR_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="CURR_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CURR_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="CM_BANK_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_BANK_ACC_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_CIF_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_SUP_REF" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CAT_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="SPOM_PAKING" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOD_ITEM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_ADDRESS1" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_ADDRESS2" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_FAXNO" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_PHONENO1" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_EMAILID" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_WEBSITE" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_PHONENO2" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOM_PAY_TERM" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOM_PO_DATE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

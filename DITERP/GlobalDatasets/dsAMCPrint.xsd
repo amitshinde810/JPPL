@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAMCPrint" targetNamespace="http://tempuri.org/dsAMCPrint.xsd" xmlns:mstns="http://tempuri.org/dsAMCPrint.xsd" xmlns="http://tempuri.org/dsAMCPrint.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAMCPrint" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtAMCPrint">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WO_AMC_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="WO_AMC_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="WO_PO_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="WO_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="WO_REF" type="xs:string" minOccurs="0" />
+              <xs:element name="WO_CONTACT_PER" type="xs:string" minOccurs="0" />
+              <xs:element name="WO_PHONE_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="WO_DELIVERY_SCHD" type="xs:string" minOccurs="0" />
+              <xs:element name="WO_PAY_TERM" type="xs:string" minOccurs="0" />
+              <xs:element name="WO_DELIVER_TO" type="xs:string" minOccurs="0" />
+              <xs:element name="WO_FRIEGHT_TERM" type="xs:string" minOccurs="0" />
+              <xs:element name="WO_GARUNTEE_TERM" type="xs:string" minOccurs="0" />
+              <xs:element name="WO_TRANSPORTOR" type="xs:string" minOccurs="0" />
+              <xs:element name="WO_NOTE" type="xs:string" minOccurs="0" />
+              <xs:element name="WO_TAX_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="WO_TAX_APPLICABLE" type="xs:string" minOccurs="0" />
+              <xs:element name="WO_GRAND_TOT" type="xs:double" minOccurs="0" />
+              <xs:element name="WOD_PROD_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="WOD_PROD_DESC" type="xs:string" minOccurs="0" />
+              <xs:element name="WOD_PREV_MAINTAIN_DEC" type="xs:string" minOccurs="0" />
+              <xs:element name="WOD_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="WOD_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="WOD_TOT_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="WO_P_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="UM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_EXCISE_RANGE" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_EXCISE_DIVISION" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_COMMISONERATE" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_PAN_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_CST_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_VAT_TIN_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_VAT_WEF" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CM_CST_WEF" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CM_BANK_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_BANK_ACC_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_OWNER" type="xs:string" minOccurs="0" />
+              <xs:element name="PM_ADD1" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_ECC_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="TAX_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="WO_TAX_PER" type="xs:double" minOccurs="0" />
+              <xs:element name="WO_TAX_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="WO_SER_TAX_PER" type="xs:double" minOccurs="0" />
+              <xs:element name="WO_DISC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="I_UOM_NAME" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

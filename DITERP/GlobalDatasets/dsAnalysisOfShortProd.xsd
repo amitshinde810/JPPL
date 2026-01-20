@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAnalysisOfShortProd" targetNamespace="http://tempuri.org/dsAnalysisOfShortProd.xsd" xmlns:mstns="http://tempuri.org/dsAnalysisOfShortProd.xsd" xmlns="http://tempuri.org/dsAnalysisOfShortProd.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAnalysisOfShortProd" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtAnalysisOfShortProduction">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IRN_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_STANDARD_PRODUCTION" type="xs:double" minOccurs="0" />
+              <xs:element name="IRND_SHORT_PROD" type="xs:double" minOccurs="0" />
+              <xs:element name="IRND_STANDARD_PROD" type="xs:double" minOccurs="0" />
+              <xs:element name="IRND_PROD_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="SQTY_MELTING" type="xs:double" minOccurs="0" />
+              <xs:element name="SQTY_TOOLROOM" type="xs:double" minOccurs="0" />
+              <xs:element name="SQTY_DIE" type="xs:double" minOccurs="0" />
+              <xs:element name="SQTY_CONTRACTOR" type="xs:double" minOccurs="0" />
+              <xs:element name="SQTY_CORESHOP" type="xs:double" minOccurs="0" />
+              <xs:element name="SQTY_PURCHASE" type="xs:double" minOccurs="0" />
+              <xs:element name="SQTY_PLAN" type="xs:double" minOccurs="0" />
+              <xs:element name="SQTY_MAINTENANCE" type="xs:double" minOccurs="0" />
+              <xs:element name="SQTY_REJECTION" type="xs:double" minOccurs="0" />
+              <xs:element name="SQTY_IMPROVEMENT" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMMSQTY_MELTING" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMMSQTY_TOOLROOM" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMMSQTY_DIE" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMMSQTY_CONTRACTOR" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMMSQTY_CORESHOP" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMMSQTY_PURCHASE" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMMSQTY_PLAN" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMMSQTY_MAINTENANCE" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMMSQTY_REJECTION" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMMSQTY_IMPROVEMENT" type="xs:double" minOccurs="0" />
+              <xs:element name="IRND_PROD_QTY_Cumm" type="xs:double" minOccurs="0" />
+              <xs:element name="IRND_SHORT_PROD_Cumm" type="xs:double" minOccurs="0" />
+              <xs:element name="I_STANDARD_PRODUCTION_Cumm" type="xs:double" minOccurs="0" />
+              <xs:element name="IRND_PROD_QTYEXcess" type="xs:double" minOccurs="0" />
+              <xs:element name="IRND_PROD_QTY_CummEXcess" type="xs:double" minOccurs="0" />
+              <xs:element name="IRND_PROD_QTY_CummACT" type="xs:double" minOccurs="0" />
+              <xs:element name="IRND_PROD_QTYACT" type="xs:double" minOccurs="0" />
+              <xs:element name="CUMMSQTY_ACL_PLAN" type="xs:double" minOccurs="0" />
+              <xs:element name="SQTY_ACL_PLAN" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

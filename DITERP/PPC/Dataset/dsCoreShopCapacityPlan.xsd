@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCoreShopCapacityPlan" targetNamespace="http://tempuri.org/dsCoreShopCapacityPlan.xsd" xmlns:mstns="http://tempuri.org/dsCoreShopCapacityPlan.xsd" xmlns="http://tempuri.org/dsCoreShopCapacityPlan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCoreShopCapacityPlan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCoreShopCapacityPlan">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="I_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CorestobeMade" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0038_00x600" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0036_00x450" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0036_00x300" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0035_00x350" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0038_00x600_Booking" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0036_00x450_Booking" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0036_00x300_Booking" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0035_00x350_Booking" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0038_00x600_Available" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0036_00x450_Available" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0036_00x300_Available" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0035_00x350_Available" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

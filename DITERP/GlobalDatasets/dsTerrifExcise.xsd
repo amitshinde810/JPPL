@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsTerrifExcise" targetNamespace="http://tempuri.org/dsTerrifExcise.xsd" xmlns:mstns="http://tempuri.org/dsTerrifExcise.xsd" xmlns="http://tempuri.org/dsTerrifExcise.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsTerrifExcise" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="INVOICE_MASTER">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="INM_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="INM_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_SUPPLEMENTORY" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_NET_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_S_TAX" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_S_TAX_AMT" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_BEXCISE" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_BE_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_EDUC_CESS" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_EDUC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_H_EDUC_CESS" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_H_EDUC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_DISC" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_DISC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_TNO" type="xs:string" minOccurs="0" />
+              <xs:element name="IND_INQTY" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_EX_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_E_CESS_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_SH_CESS_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_AMORTAMT" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_AMORTRATE" type="xs:double" minOccurs="0" />
+              <xs:element name="E_TARIFF_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="E_COMMODITY" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CODE" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

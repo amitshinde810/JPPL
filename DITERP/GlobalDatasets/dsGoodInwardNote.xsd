@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsGoodInwardNote" targetNamespace="http://tempuri.org/dsGoodInwardNote.xsd" xmlns:mstns="http://tempuri.org/dsGoodInwardNote.xsd" xmlns="http://tempuri.org/dsGoodInwardNote.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsGoodInwardNote" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GOOD_INWARD_NOTE">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="LM_ADD1" type="xs:string" minOccurs="0" />
+              <xs:element name="IWM_NO" type="xs:int" minOccurs="0" />
+              <xs:element name="IWM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IWM_CHALLAN_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="IWM_CHAL_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SPOM_PO_NO" type="xs:int" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="IWD_CH_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="IWD_REV_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="IWD_CON_OK_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="IWD_CON_REJ_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="IWD_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="IWD_REMARK" type="xs:string" minOccurs="0" />
+              <xs:element name="UOM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="INSP_NO" type="xs:int" minOccurs="0" />
+              <xs:element name="IWM_LR_NO" type="xs:int" minOccurs="0" />
+              <xs:element name="SPOM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="IWD_BATCH_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="IWM_INV_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="IWM_INV_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IWM_TRANSPORATOR_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="UM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="LG_U_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="LG_U_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="IWD_INSP_FLG" type="xs:string" minOccurs="0" />
+              <xs:element name="IWD_INSP_NO" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

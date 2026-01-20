@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsEximinationReport" targetNamespace="http://tempuri.org/dsEximinationReport.xsd" xmlns:mstns="http://tempuri.org/dsEximinationReport.xsd" xmlns="http://tempuri.org/dsEximinationReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsEximinationReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EximinationReport">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="INM_PER_E_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_CUST_SEAL_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="CM_ADDRESS1" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="INM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="INM_AREA_FORM_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_SEAL_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_CONTA_NO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtAdditionalReport">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="INM_CARRIER_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_CONTA_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_ADDRESS1" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_ADDRESS2" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_FAXNO" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_PHONENO1" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_EMAILID" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_WEBSITE" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_PHONENO2" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

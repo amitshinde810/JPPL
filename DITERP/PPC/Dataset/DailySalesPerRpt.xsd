@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DailySalesPerRpt" targetNamespace="http://tempuri.org/DailySalesPerRpt.xsd" xmlns:mstns="http://tempuri.org/DailySalesPerRpt.xsd" xmlns="http://tempuri.org/DailySalesPerRpt.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DailySalesPerRpt" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DalySalePerRpt">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COMPONENT" type="xs:string" minOccurs="0" />
+              <xs:element name="PART_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="AV_DAY" type="xs:double" minOccurs="0" />
+              <xs:element name="PLAN" type="xs:double" minOccurs="0" />
+              <xs:element name="ACTUAL" type="xs:double" minOccurs="0" />
+              <xs:element name="BACLOK" type="xs:double" minOccurs="0" />
+              <xs:element name="TODAYS_DESP_PLAN" type="xs:double" minOccurs="0" />
+              <xs:element name="PLAN_ORG" type="xs:double" minOccurs="0" />
+              <xs:element name="ACTUAL_ORG" type="xs:double" minOccurs="0" />
+              <xs:element name="BACLOK_ORG" type="xs:double" minOccurs="0" />
+              <xs:element name="BALANCE_FOR_DESP" type="xs:double" minOccurs="0" />
+              <xs:element name="FDY_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="FDY_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="MC_SHOP_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="MC_SHOP_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="QA_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="QA_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="MAINT_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="MAINT_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="TOOL_ROOM_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="TOOL_ROOM_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="PPC_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="PPC_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="PURCHASE_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="PURCHASE_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="OUTSIDE_VEN_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="OUTSIDE_VEN_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="CSN_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="CSN_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="GROUP" type="xs:string" minOccurs="0" />
+              <xs:element name="DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Rate" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_AV_DAY" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_PLAN" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_ACTUAL" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_BACLOK" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_PLAN_ORG" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_ACTUAL_ORG" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_BACLOK_ORG" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_BALANCE_FOR_DESP" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_ON_SSED_SHORT_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_FDY_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_MC_SHOP_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_QA_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_MAINT_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_TOOL_ROOM_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_PPC_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_PURCHASE_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_OUTSIDE_VEN_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_CSN_ON" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_COMM_SSED_SHORT_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_FDY_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_MC_SHOP_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_QA_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_MAINT_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_TOOL_ROOM_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_PPC_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_PURCHASE_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_OUTSIDE_VEN_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="Value_CSN_CUM" type="xs:double" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

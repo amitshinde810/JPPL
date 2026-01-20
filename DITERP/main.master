@@ -1,0 +1,172 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="main.master.cs" Inherits="main" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html>
+<html lang="en" class="no-js" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Hhead1" runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <meta name="MobileOptimized" content="320">
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css" />
+    <style>
+        .header .hor-menu ul.nav li > a:focus
+        {
+            background: #e02222 !important;
+        }
+        li.active
+        {
+            color: red;
+        }
+    </style>
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+    <link href="assets/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap-datepicker/css/datepicker.css" />
+    <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap-datetimepicker/css/datetimepicker.css" />
+    <link href="assets/plugins/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet"
+        type="text/css" />
+    <link href="assets/plugins/select2/select2.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL PLUGIN STYLES -->
+    <!-- BEGIN THEME STYLES -->
+    <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="light" />
+    <link href="assets/css/custom.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME STYLES -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="page-header-fixed page-full-width">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <!-- BEGIN HEADER -->
+    <div class="header navbar navbar-inverse navbar-fixed-top">
+        <!-- BEGIN TOP NAVIGATION BAR -->
+        <div class="header-inner">
+            <!-- BEGIN HORIZANTAL MENU -->
+            <div class="hor-menu hidden-sm hidden-xs" id="menu">
+                <ul class="nav navbar-nav" runat="server" id="Menus">
+                    <li runat="server" id="Dashboard"><a href="~/Masters/ADD/Dashboard.aspx" runat="server">
+                        <i class="fa fa-home"></i><span class="selected"></span>Dashboard </a></li>
+                    <li id="Masters" runat="server"><a id="A6" href="~/Masters/ADD/MasterDefault.aspx"
+                        runat="server"><i class="fa fa-leaf"></i>Masters </a></li>
+                    <li id="Purchase" runat="server"><a href="~/Masters/ADD/PurchaseDefault.aspx" runat="server">
+                        <i class="fa fa-leaf"></i>Purchase </a></li>
+                    <li id="Production" runat="server"><a href="~/Masters/ADD/ProductionDefault.aspx"
+                        runat="server"><i class="fa fa-leaf"></i>Store</a> </li>
+                    <li id="Sale" runat="server"><a href="~/Masters/ADD/SalesDefault.aspx" runat="server">
+                        <i class="fa fa-leaf"></i>Sale </a></li>
+                    <li id="RNDQC" runat="server" visible="false"><a href="~/Masters/ADD/RNDDefault.aspx"
+                        runat="server"><i class="fa fa-leaf"></i>R & D</a> </li>
+                    <li id="Excise" runat="server"><a id="A14" href="~/Masters/ADD/ExciseDefault.aspx"
+                        runat="server"><i class="fa fa-leaf"></i>Excise</a> </li>
+                    <li id="Utility" runat="server"><a href="~/Masters/ADD/UtilityDefault.aspx" runat="server">
+                        <i class="fa fa-leaf"></i>Utility</a> </li>
+                    <li id="IRN" runat="server"><a id="A10" href="~/Masters/ADD/IRNDefault.aspx" runat="server">
+                        <i class="fa fa-leaf"></i>IRN</a> </li>
+                    <li id="COPP" runat="server"><a id="A9" href="~/Masters/ADD/COPPDefault.aspx" runat="server">
+                        <i class="fa fa-leaf"></i>COPP</a> </li>
+                    <li id="Tools" runat="server"><a id="A16" visible="true" href="~/Masters/ADD/ToolsDefault.aspx"
+                        runat="server"><i class="fa fa-leaf"></i>Tools</a> </li>
+                    <li id="PPC" runat="server"><a id="A18" visible="true" href="~/Masters/ADD/PPCDefault.aspx"
+                        runat="server"><i class="fa fa-leaf"></i>CP</a> </li>
+                </ul>
+            </div>
+            <!-- END HORIZANTAL MENU -->
+            <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+            <a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <img src="~/assets/img/menu-toggler.png" alt="" runat="server" />
+            </a>
+            <!-- END RESPONSIVE MENU TOGGLER -->
+            <!-- BEGIN TOP NAVIGATION MENU -->
+            <ul class="nav navbar-nav pull-right">
+                <!-- BEGIN NOTIFICATION DROPDOWN -->
+                <!-- BEGIN USER LOGIN DROPDOWN -->
+                <li class="dropdown user"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                    data-hover="dropdown" data-close-others="true"><span class="username">
+                        <asp:Label ID="lblUserName" runat="server" Text=""></asp:Label>
+                    </span><i class="fa fa-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li id="Adminstrator" runat="server"><a href="~/Admin/Default.aspx" runat="server"><i
+                            class="fa fa-user"></i>Administrator</a> </li>
+                        <li id="UserProfile" runat="server"><a id="A7" href="~/UserProfile.aspx" runat="server">
+                            <i class="fa fa-edit"></i>User Profile</a> </li>
+                        <li><a href="javascript:;" id="trigger_fullscreen"><i class="fa fa-move"></i>Full Screen</a>
+                        </li>
+                        <li><a href="Lock.aspx" runat="server"><i class="fa fa-lock"></i>Lock Screen</a></li>
+                        <li>
+                            <asp:LinkButton runat="server" ID="lnklogout" Text="Log Out" OnClick="lnk_logout"><i class="fa fa-key"></i>Logout</asp:LinkButton>
+                        </li>
+                    </ul>
+                </li>
+                <!-- END USER LOGIN DROPDOWN -->
+            </ul>
+            <!-- END TOP NAVIGATION MENU -->
+        </div>
+        <!-- END TOP NAVIGATION BAR -->
+    </div>
+    <!-- END HEADER -->
+    <!-- BEGIN CONTAINER -->
+    <div class="page-container">
+        <!-- BEGIN EMPTY PAGE SIDEBAR -->
+        <div class="page-sidebar navbar-collapse collapse">
+            <ul class="page-sidebar-menu visible-sm visible-xs">
+                <li id="Dashboard1MV" runat="server"><a id="A1" href="~/Masters/ADD/Dashboard.aspx"
+                    runat="server"><i class="fa fa-home"></i><span class="selected"></span>Dashboard
+                </a></li>
+                <li id="Masters1MV" runat="server"><a id="A13" href="~/Masters/ADD/MasterDefault.aspx"
+                    runat="server"><i class="fa fa-leaf"></i>Masters </a></li>
+                <li id="Purchase1MV" runat="server"><a id="A2" href="~/Masters/ADD/PurchaseDefault.aspx"
+                    runat="server"><i class="fa fa-leaf"></i>Purchase </a></li>
+                <li id="Production1MV" runat="server"><a id="A3" href="~/Masters/ADD/ProductionDefault.aspx"
+                    runat="server"><i class="fa fa-leaf"></i>Store</a> </li>
+                <li id="Sale1MV" runat="server"><a id="A4" href="~/Masters/ADD/SalesDefault.aspx"
+                    runat="server"><i class="fa fa-leaf"></i>Sale </a></li>
+                <li runat="server"><a id="A8" href="~/Masters/ADD/RNDDefault.aspx" visible="false"
+                    runat="server"><i class="fa fa-leaf"></i>R & D</a> </li>
+                <li id="Excise1MV" runat="server"><a id="A11" href="~/Masters/ADD/ExciseDefault.aspx"
+                    runat="server"><i class="fa fa-leaf"></i>Excise</a> </li>
+                <li runat="server" id="Utility1MV"><a id="A5" href="~/Masters/ADD/UtilityDefault.aspx"
+                    runat="server"><i class="fa fa-leaf"></i>Utility</a> </li>
+                <li id="IRN1MV" runat="server"><a id="A12" href="~/Masters/ADD/IRNDefault.aspx" runat="server">
+                    <i class="fa fa-leaf"></i>IRN</a> </li>
+                <li id="COPPMV" runat="server"><a id="A15" href="~/Masters/ADD/COPPDefault.aspx"
+                    runat="server"><i class="fa fa-leaf"></i>COPP</a> </li>
+                <li id="ToolsMV" runat="server"><a id="A17" visible="true" href="~/Masters/ADD/ToolsDefault.aspx"
+                    runat="server"><i class="fa fa-leaf"></i>Tools</a> </li>
+                <li id="PPCMV" runat="server"><a id="A19" visible="true"   href="~/Masters/ADD/PPCDefault.aspx" runat="server"><i
+                    class="fa fa-leaf"></i>CP</a> </li>
+            </ul>
+        </div>
+        <!-- END EMPTY PAGE SIDEBAR -->
+        <asp:ContentPlaceHolder ID="body" runat="server">
+        </asp:ContentPlaceHolder>
+        <!-- BEGIN FOOTER -->
+    </div>
+    <div class="footer">
+        <div class="footer-inner">
+            2016 &copy; Dynamisch IT Pvt Ltd. ALL Rights Reserved.
+        </div>
+        <div class="footer-tools">
+            <span id="up" class="go-top"><i class="fa fa-angle-up"></i></span>
+        </div>
+    </div>
+    <!-- END FOOTER -->
+    </form>
+</body>
+</html>

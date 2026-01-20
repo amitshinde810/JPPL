@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCustomerPO" targetNamespace="http://tempuri.org/dsCustomerPO.xsd" xmlns:mstns="http://tempuri.org/dsCustomerPO.xsd" xmlns="http://tempuri.org/dsCustomerPO.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCustomerPO" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCustomerPO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CPOM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="CPOM_P_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="P_ADD1" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOM_PONO" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOM_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CPOM_CR_DAYS" type="xs:int" minOccurs="0" />
+              <xs:element name="CPOD_CPOM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="CPOD_I_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_MATERIAL" type="xs:string" minOccurs="0" />
+              <xs:element name="I_SPECIFICATION" type="xs:string" minOccurs="0" />
+              <xs:element name="I_SIZE" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOD_UOM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="I_UOM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOD_ORD_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOD_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_T_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOM_T_PER" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_EXC_PER" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_EXC_EDU_PER" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_EXC_HEDU_PER" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOD_DESC" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOM_BASIC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_DISCOUNT_PER" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_DISCOUNT_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_DISCOUNT_REASON" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOM_DEVIATION_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_DEVIATION_REASON" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOM_PACKING_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_ROUNDING" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_GRAND_TOT" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_EXC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_T_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="I_LENGTH" type="xs:string" minOccurs="0" />
+              <xs:element name="I_HEIGHT" type="xs:string" minOccurs="0" />
+              <xs:element name="I_WIDTH" type="xs:string" minOccurs="0" />
+              <xs:element name="I_ROWS" type="xs:string" minOccurs="0" />
+              <xs:element name="I_STORIED" type="xs:string" minOccurs="0" />
+              <xs:element name="ST_SALES_TAX" type="xs:double" minOccurs="0" />
+              <xs:element name="ST_TAX_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="E_H_EDU" type="xs:string" minOccurs="0" />
+              <xs:element name="E_EDU_CESS" type="xs:string" minOccurs="0" />
+              <xs:element name="E_SPECIAL" type="xs:string" minOccurs="0" />
+              <xs:element name="E_BASIC" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOM_WORK_ODR_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOD_CUST_I_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOD_CUST_I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_ADDRESS1" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_ADDRESS2" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_FAXNO" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_PHONENO1" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_EMAILID" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_WEBSITE" type="xs:string" minOccurs="0" />
+              <xs:element name="CM_PHONENO2" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOM_PAY_TERM" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOM_PO_DATE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtCustomerOrderRegister">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CPOM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="CPOM_PONO" type="xs:int" minOccurs="0" />
+              <xs:element name="CPOM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CPOM_CR_DAYS" type="xs:int" minOccurs="0" />
+              <xs:element name="CPOM_T_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_BASIC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_DISCOUNT_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_DEVIATION_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_PACKING_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_EXC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_GRAND_TOT" type="xs:double" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="LG_U_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOM_P_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="CPOD_I_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="CPOD_ORD_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOD_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOD_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="ST_SALES_TAX" type="xs:double" minOccurs="0" />
+              <xs:element name="EXC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="TAX_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_NO" type="xs:int" minOccurs="0" />
+              <xs:element name="INM_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOM_EXC_PER" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_EDUC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOM_EXC_EDU_PER" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOM_EXC_HEDU_PER" type="xs:double" minOccurs="0" />
+              <xs:element name="I_UOM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_IS_SUPPLIMENT" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

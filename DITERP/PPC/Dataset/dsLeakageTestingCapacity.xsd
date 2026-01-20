@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLeakageTestingCapacity" targetNamespace="http://tempuri.org/dsLeakageTestingCapacity.xsd" xmlns:mstns="http://tempuri.org/dsLeakageTestingCapacity.xsd" xmlns="http://tempuri.org/dsLeakageTestingCapacity.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLeakageTestingCapacity" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtLeakageTestingCapacity">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="I_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CastingTobeInspected"  type="xs:double" minOccurs="0" />
+              <xs:element name="Type1"  type="xs:double" minOccurs="0" />
+              <xs:element name="Type2"  type="xs:double" minOccurs="0" />
+              <xs:element name="Type3"  type="xs:double" minOccurs="0" />
+              <xs:element name="Type4"  type="xs:double" minOccurs="0" />
+              <xs:element name="Type5"  type="xs:double" minOccurs="0" />
+              <xs:element name="Type6"   type="xs:double" minOccurs="0" />
+              <xs:element name="Type1_Booking"   type="xs:double" minOccurs="0" />
+              <xs:element name="Type2_Booking"   type="xs:double" minOccurs="0" />
+              <xs:element name="Type3_Booking"  type="xs:double" minOccurs="0" />
+              <xs:element name="Type4_Booking" type="xs:double" minOccurs="0" />
+              <xs:element name="Type5_Booking"  type="xs:double" minOccurs="0" />
+              <xs:element name="Type6_Booking"  type="xs:double" minOccurs="0" />
+              <xs:element name="Type1_Available"  type="xs:double" minOccurs="0" />
+              <xs:element name="Type2_Available" type="xs:double" minOccurs="0" />
+              <xs:element name="Type3_Available"  type="xs:double" minOccurs="0" />
+              <xs:element name="Type4_Available" type="xs:double" minOccurs="0" />
+              <xs:element name="Type5_Available" type="xs:double" minOccurs="0" />
+              <xs:element name="Type6_Available" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

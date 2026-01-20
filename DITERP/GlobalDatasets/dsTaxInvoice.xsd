@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsTaxInvoice" targetNamespace="http://tempuri.org/dsTaxInvoice.xsd" xmlns:mstns="http://tempuri.org/dsTaxInvoice.xsd" xmlns="http://tempuri.org/dsTaxInvoice.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsTaxInvoice" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtTaxInvoice">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="P_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="P_ADD1" type="xs:string" minOccurs="0" />
+              <xs:element name="P_VAT" type="xs:string" minOccurs="0" />
+              <xs:element name="P_CST" type="xs:string" minOccurs="0" />
+              <xs:element name="P_ECC_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="P_VEND_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="INM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="INM_TRANSPORT" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_LR_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_LR_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="INM_VEH_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOD_CUST_I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOD_CUST_I_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="IND_SUBHEADING" type="xs:string" minOccurs="0" />
+              <xs:element name="IND_BACHNO" type="xs:string" minOccurs="0" />
+              <xs:element name="IND_NO_PACK" type="xs:int" minOccurs="0" />
+              <xs:element name="IND_PAK_QTY" type="xs:int" minOccurs="0" />
+              <xs:element name="IND_INQTY" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="E_BASIC" type="xs:double" minOccurs="0" />
+              <xs:element name="E_SPECIAL" type="xs:double" minOccurs="0" />
+              <xs:element name="E_EDU_CESS" type="xs:double" minOccurs="0" />
+              <xs:element name="ST_SALES_TAX" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_NO" type="xs:int" minOccurs="0" />
+              <xs:element name="CPOM_PONO" type="xs:string" minOccurs="0" />
+              <xs:element name="CPOM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ST_TAX_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="E_H_EDU" type="xs:double" minOccurs="0" />
+              <xs:element name="E_TARIFF_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="IND_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_NET_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_DISC" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_DISC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_PACK_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_ACCESSIBLE_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_BEXCISE" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_BE_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_EDUC_CESS" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_EDUC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_H_EDUC_CESS" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_H_EDUC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_TAXABLE_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_S_TAX" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_S_TAX_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_OTHER_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_FREIGHT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_INSURANCE" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_TRANS_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_OCTRI_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_ROUNDING_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_G_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_TAX_TCS_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_ISSUE_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="INM_REMOVAL_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="INM_ISSU_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_REMOVEL_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="E_COMMODITY" type="xs:string" minOccurs="0" />
+              <xs:element name="I_UOM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_TAX_TCS" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_TNO" type="xs:string" minOccurs="0" />
+              <xs:element name="IND_AMORTRATE" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_AMORTAMT" type="xs:double" minOccurs="0" />
+              <xs:element name="I_CODE_x0020_" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_ELECTRREFNUM" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_ADDRESS" type="xs:string" minOccurs="0" />
+              <xs:element name="P_GST_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="IND_EX_AMT" type="xs:string" minOccurs="0" />
+              <xs:element name="IND_E_CESS_AMT" type="xs:string" minOccurs="0" />
+              <xs:element name="IND_SH_CESS_AMT" type="xs:string" minOccurs="0" />
+              <xs:element name="SM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SM_STATE_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="IND_E_TARIFF_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_PREPARE_BY" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_BUYER_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_BUYTER_ADD" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_IS_SUPPLIMENT" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_LC_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_LC_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="QR_CODE" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="CPOD_DISC_PER" type="xs:double" minOccurs="0" />
+              <xs:element name="CPOD_GROSS_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_TRASPORT_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_TRASPORT_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_TEX_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_TE_CESS_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_TSH_CESS_AMT" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

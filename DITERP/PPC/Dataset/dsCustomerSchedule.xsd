@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCustomerSchedule" targetNamespace="http://tempuri.org/dsCustomerSchedule.xsd" xmlns:mstns="http://tempuri.org/dsCustomerSchedule.xsd" xmlns="http://tempuri.org/dsCustomerSchedule.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCustomerSchedule" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCustomerSchedule">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="I_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CS_SCHEDULE_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="CS_WEEK1" type="xs:double" minOccurs="0" />
+              <xs:element name="CS_WEEK2" type="xs:double" minOccurs="0" />
+              <xs:element name="CS_WEEK3" type="xs:double" minOccurs="0" />
+              <xs:element name="CS_WEEK4" type="xs:double" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CS_AMEND_COUNT" type="xs:int" minOccurs="0" />
+              <xs:element name="Rev1" type="xs:double" minOccurs="0" />
+              <xs:element name="Rev2" type="xs:double" minOccurs="0" />
+              <xs:element name="Rev3" type="xs:double" minOccurs="0" />
+              <xs:element name="AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="AMT1" type="xs:double" minOccurs="0" />
+              <xs:element name="AMT2" type="xs:double" minOccurs="0" />
+              <xs:element name="AMT3" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

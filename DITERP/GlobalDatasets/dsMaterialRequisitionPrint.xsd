@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsMaterialRequisitionPrint" targetNamespace="http://tempuri.org/dsMaterialRequisitionPrint.xsd" xmlns:mstns="http://tempuri.org/dsMaterialRequisitionPrint.xsd" xmlns="http://tempuri.org/dsMaterialRequisitionPrint.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsMaterialRequisitionPrint" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtMaterialRequisitionPrint">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MR_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="MR_BATCH_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="MR_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MR_I_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="MR_CPOM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="MR_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="MRD_I_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="MRD_REQ_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="MRD_ISSUE_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="MRD_PROD_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="MRD_PURC_REQ_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="FINISH_I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="FINISH_I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="RAW_I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="RAW_I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="UM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="MR_UM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="MR_FORMULA" type="xs:string" minOccurs="0" />
+              <xs:element name="MR_DEPT_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="BT_NO" type="xs:int" minOccurs="0" />
+              <xs:element name="MRD_ADD_IN" type="xs:double" default="0" minOccurs="0" />
+              <xs:element name="IMD_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="IMD_AMOUNT" type="xs:double" minOccurs="0" />
+              <xs:element name="IM_ISSUEBY" type="xs:string" minOccurs="0" />
+              <xs:element name="IM_REQBY" type="xs:string" minOccurs="0" />
+              <xs:element name="IM_UM_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="UM_USERNAME" type="xs:string" minOccurs="0" />
+              <xs:element name="FROM_STORE_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="TO_STORE_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="E_TARIFF_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="FROM_STORE_ADDRESS" type="xs:string" minOccurs="0" />
+              <xs:element name="TO_STORE_ADDRESS" type="xs:string" minOccurs="0" />
+              <xs:element name="CGST" type="xs:double" minOccurs="0" />
+              <xs:element name="SGST" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtPrint">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MR_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_SEQNO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="dtMaterialRequisitionPrint_dtPrint" msdata:parent="dtMaterialRequisitionPrint" msdata:child="dtPrint" msdata:parentkey="MR_CODE" msdata:childkey="MR_CODE" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

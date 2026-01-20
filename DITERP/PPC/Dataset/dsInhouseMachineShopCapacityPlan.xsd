@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsInhouseMachineShopCapacityPlan" targetNamespace="http://tempuri.org/dsInhouseMachineShopCapacityPlan.xsd" xmlns:mstns="http://tempuri.org/dsInhouseMachineShopCapacityPlan.xsd" xmlns="http://tempuri.org/dsInhouseMachineShopCapacityPlan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsInhouseMachineShopCapacityPlan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtInhouseMachineShopCapacityPlan">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="I_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CastingTobeMachine" type="xs:double" minOccurs="0" />
+              <xs:element name="OD_TURNING" msdata:Caption="DataColumn1" type="xs:double" minOccurs="0" />
+              <xs:element name="CNC" msdata:Caption="DataColumn2" type="xs:double" minOccurs="0" />
+              <xs:element name="VMC" msdata:Caption="DataColumn3" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0034_TH_AXIS" msdata:Caption="DataColumn4" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0035_TH_AXIS" msdata:Caption="DataColumn5" type="xs:double" minOccurs="0" />
+              <xs:element name="HMC" msdata:Caption="DataColumn1" type="xs:double" minOccurs="0" />
+              <xs:element name="OD_TURNING_Booking" msdata:Caption="DataColumn2" type="xs:double" minOccurs="0" />
+              <xs:element name="CNC_Booking" msdata:Caption="DataColumn3" type="xs:double" minOccurs="0" />
+              <xs:element name="VMC_Booking" msdata:Caption="DataColumn4" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0034_TH_AXIS_Booking" msdata:Caption="DataColumn5" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0035_TH_AXIS_Booking" msdata:Caption="DataColumn1" type="xs:double" minOccurs="0" />
+              <xs:element name="HMC_Booking" msdata:Caption="DataColumn2" type="xs:double" minOccurs="0" />
+              <xs:element name="OD_TURNING_Available" msdata:Caption="DataColumn3" type="xs:double" minOccurs="0" />
+              <xs:element name="CNC_Available" msdata:Caption="DataColumn4" type="xs:double" minOccurs="0" />
+              <xs:element name="VMC_Available" msdata:Caption="DataColumn5" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0034_TH_AXIS_Available" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0035_TH_AXIS_Available" type="xs:double" minOccurs="0" />
+              <xs:element name="HMC_Available" type="xs:double" minOccurs="0" />
+              <xs:element name="CNC_2nd" type="xs:double" minOccurs="0" />
+              <xs:element name="CNC_2ND_Booking" type="xs:double" minOccurs="0" />
+              <xs:element name="P_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

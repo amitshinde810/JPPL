@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsToolLifeMonitoring" targetNamespace="http://tempuri.org/dsToolLifeMonitoring.xsd" xmlns:mstns="http://tempuri.org/dsToolLifeMonitoring.xsd" xmlns="http://tempuri.org/dsToolLifeMonitoring.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsToolLifeMonitoring" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsToolLifeMonitoring">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="T_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="T_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="T_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="T_STDLIFE" type="xs:double" minOccurs="0" />
+              <xs:element name="T_PENDTOOLLIFE" type="xs:double" minOccurs="0" />
+              <xs:element name="T_PENDTOOLLIFEMONTH" type="xs:double" minOccurs="0" />
+              <xs:element name="T_OWNER" type="xs:string" minOccurs="0" />
+              <xs:element name="T_PMFREQ" type="xs:double" minOccurs="0" />
+              <xs:element name="T_REVNO" type="xs:int" minOccurs="0" />
+              <xs:element name="T_REV_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="T_REF_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="T_TYPENM" type="xs:string" minOccurs="0" />
+              <xs:element name="IRND_PROD_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="IRN_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="MONTH" type="xs:string" minOccurs="0" />
+              <xs:element name="Year" type="xs:int" minOccurs="0" />
+              <xs:element name="dtfDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="prod" type="xs:double" minOccurs="0" />
+              <xs:element name="PtoolLife" type="xs:double" minOccurs="0" />
+              <xs:element name="opTool" type="xs:double" minOccurs="0" />
+              <xs:element name="PEND_MONTH" type="xs:double" minOccurs="0" />
+              <xs:element name="TRefubrish" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

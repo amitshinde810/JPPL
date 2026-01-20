@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsVendor" targetNamespace="http://tempuri.org/dsVendor.xsd" xmlns:mstns="http://tempuri.org/dsVendor.xsd" xmlns="http://tempuri.org/dsVendor.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsVendor" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtVendor">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="_x0031_" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0032_" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0033_" msdata:Caption="DataColumn1" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0034_" msdata:Caption="DataColumn2" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0035_" msdata:Caption="DataColumn3" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0036_" msdata:Caption="DataColumn4" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0037_" msdata:Caption="DataColumn5" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0038_" msdata:Caption="DataColumn1" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0039_" msdata:Caption="DataColumn2" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0031_0" msdata:Caption="DataColumn3" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0031_1" msdata:Caption="DataColumn4" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0031_2" msdata:Caption="DataColumn5" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0031_3" msdata:Caption="DataColumn1" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0031_4" msdata:Caption="DataColumn2" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0031_5" msdata:Caption="DataColumn3" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0031_6" msdata:Caption="DataColumn4" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0031_7" msdata:Caption="DataColumn5" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0031_8" msdata:Caption="DataColumn1" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0031_9" msdata:Caption="DataColumn2" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0032_0" msdata:Caption="DataColumn3" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0032_1" msdata:Caption="DataColumn4" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0032_2" msdata:Caption="DataColumn5" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0032_3" msdata:Caption="DataColumn1" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0032_4" msdata:Caption="DataColumn2" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0032_5" msdata:Caption="DataColumn3" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0032_6" msdata:Caption="DataColumn4" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0032_7" msdata:Caption="DataColumn5" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0032_8" msdata:Caption="DataColumn1" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0032_9" msdata:Caption="DataColumn2" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0033_0" msdata:Caption="DataColumn3" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0033_1" msdata:Caption="DataColumn4" type="xs:double" minOccurs="0" />
+              <xs:element name="I_CODE" msdata:Caption="DataColumn5" type="xs:decimal" minOccurs="0" />
+              <xs:element name="I_CODENO" msdata:Caption="DataColumn1" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" msdata:Caption="DataColumn2" type="xs:string" minOccurs="0" />
+              <xs:element name="P_CODE" msdata:Caption="DataColumn3" type="xs:string" minOccurs="0" />
+              <xs:element name="P_NAME" msdata:Caption="DataColumn4" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TYPES" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

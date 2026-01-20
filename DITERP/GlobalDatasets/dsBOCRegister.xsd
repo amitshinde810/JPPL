@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsBOCRegister" targetNamespace="http://tempuri.org/dsBOCRegister.xsd" xmlns:mstns="http://tempuri.org/dsBOCRegister.xsd" xmlns="http://tempuri.org/dsBOCRegister.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsBOCRegister" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtBOCDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="BM_I_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="FINISH_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="BD_BM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="BD_I_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="BD_VQTY" type="xs:double" minOccurs="0" />
+              <xs:element name="BD_SQTY" type="xs:double" minOccurs="0" />
+              <xs:element name="SUB_NAME" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

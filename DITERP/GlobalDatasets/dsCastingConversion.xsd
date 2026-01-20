@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCastingConversion" targetNamespace="http://tempuri.org/dsCastingConversion.xsd" xmlns:mstns="http://tempuri.org/dsCastingConversion.xsd" xmlns="http://tempuri.org/dsCastingConversion.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCastingConversion" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsCastingCon">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RTF_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="RTF_DOC_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="RTF_DOC_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="RTFD_REJ_ITEMCODE" type="xs:string" minOccurs="0" />
+              <xs:element name="RTFD_CON_ITEMCODE" type="xs:string" minOccurs="0" />
+              <xs:element name="RTFD_STK_REJ_QTY" msdata:Caption="DataColumn1" type="xs:double" minOccurs="0" />
+              <xs:element name="RTFD_STAND_WEIGHT" msdata:Caption="DataColumn2" type="xs:double" minOccurs="0" />
+              <xs:element name="RTFD_CON_QTY" msdata:Caption="DataColumn3" type="xs:double" minOccurs="0" />
+              <xs:element name="I_CODENO" msdata:Caption="DataColumn5" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CODENO_DETAIL" msdata:Caption="DataColumn6" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME_DETAIL" msdata:Caption="DataColumn1" type="xs:string" minOccurs="0" />
+              <xs:element name="RTF_CQTY" type="xs:double" minOccurs="0" />
+              <xs:element name="RTF_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_UOM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_Unit_Name_Detail" type="xs:string" minOccurs="0" />
+              <xs:element name="TOTALWEIGHT" type="xs:double" minOccurs="0" />
+              <xs:element name="I_UWEIGHT" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

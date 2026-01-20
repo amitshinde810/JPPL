@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="IRNCustRejectionPrinr" targetNamespace="http://tempuri.org/IRNCustRejectionPrinr.xsd" xmlns:mstns="http://tempuri.org/IRNCustRejectionPrinr.xsd" xmlns="http://tempuri.org/IRNCustRejectionPrinr.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="IRNCustRejectionPrinr" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsCustRejPrint">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CRM_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="CRM_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="CRM_COMPLAINT_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="CRM_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="CRD_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="CRD_REASON" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

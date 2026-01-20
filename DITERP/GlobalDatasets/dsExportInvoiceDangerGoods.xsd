@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsExportInvoiceDangerGoods" targetNamespace="http://tempuri.org/dsExportInvoiceDangerGoods.xsd" xmlns:mstns="http://tempuri.org/dsExportInvoiceDangerGoods.xsd" xmlns="http://tempuri.org/dsExportInvoiceDangerGoods.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsExportInvoiceDangerGoods" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtExportInvoice">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="P_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="P_ADD1" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="INM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="INM_NO" type="xs:int" minOccurs="0" />
+              <xs:element name="P_PHONE" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_PORT_OF_DISCH" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_PORT_OF_LOAD" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_PLACE_OF_DEL" type="xs:string" minOccurs="0" />
+              <xs:element name="IND_NET_WEIGHT" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_GROSS_WEIGHT" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_NO_OF_BARRELS" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_FINAL_DEST" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_VOY_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_NOS_PACK" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_UN_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_HAZ" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_CONTA_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_CARRIER_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_CARRIER_BOOK_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_SHIP_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_TECH_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_OUT_PAKGS" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_INR_PAKG" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_SUB_CLASS" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_UN_PAK_GRP" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_UN_PAK_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_EMS_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_FLASH_POINT" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_MARINE_POLLT" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_SHIP_DECLAR" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

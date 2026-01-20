@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsMasters" targetNamespace="http://tempuri.org/dsMasters.xsd" xmlns:mstns="http://tempuri.org/dsMasters.xsd" xmlns="http://tempuri.org/dsMasters.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsMasters" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtUnitMaster">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="I_UOM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="I_UOM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_UOM_DESC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSectorMaster">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SCT_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="SCT_DESC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtUserMaster">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="UM_USERNAME" type="xs:string" minOccurs="0" />
+              <xs:element name="UM_LEVEL" type="xs:string" minOccurs="0" />
+              <xs:element name="UM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="UM_EMAIL" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtFinishedComponent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="I_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CAT_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_MATERIAL" type="xs:string" minOccurs="0" />
+              <xs:element name="I_SPECIFICATION" type="xs:string" minOccurs="0" />
+              <xs:element name="I_UOM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_OP_BAL" type="xs:double" minOccurs="0" />
+              <xs:element name="I_STORE_LOC" type="xs:string" minOccurs="0" />
+              <xs:element name="I_INV_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="I_LENGTH" type="xs:string" minOccurs="0" />
+              <xs:element name="I_HEIGHT" type="xs:string" minOccurs="0" />
+              <xs:element name="I_WIDTH" type="xs:string" minOccurs="0" />
+              <xs:element name="I_ROWS" type="xs:string" minOccurs="0" />
+              <xs:element name="I_STORIED" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSubComponent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="I_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CAT_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_MATERIAL" type="xs:string" minOccurs="0" />
+              <xs:element name="I_SPECIFICATION" type="xs:string" minOccurs="0" />
+              <xs:element name="I_UOM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_OP_BAL" type="xs:double" minOccurs="0" />
+              <xs:element name="I_STORE_LOC" type="xs:string" minOccurs="0" />
+              <xs:element name="I_INV_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="I_LENGTH" type="xs:string" minOccurs="0" />
+              <xs:element name="I_HEIGHT" type="xs:string" minOccurs="0" />
+              <xs:element name="I_WIDTH" type="xs:string" minOccurs="0" />
+              <xs:element name="I_ROWS" type="xs:string" minOccurs="0" />
+              <xs:element name="I_STORIED" type="xs:string" minOccurs="0" />
+              <xs:element name="I_MAX_LEVEL" type="xs:double" minOccurs="0" />
+              <xs:element name="I_MIN_LEVEL" type="xs:double" minOccurs="0" />
+              <xs:element name="I_REORDER_LEVEL" type="xs:double" minOccurs="0" />
+              <xs:element name="I_INV_CAT" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtCustomerRegister">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="P_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="P_ADD1" type="xs:string" minOccurs="0" />
+              <xs:element name="P_PHONE" type="xs:string" minOccurs="0" />
+              <xs:element name="P_MOB" type="xs:string" minOccurs="0" />
+              <xs:element name="P_EMAIL" type="xs:string" minOccurs="0" />
+              <xs:element name="SCT_DESC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtProcessMaster">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PROCESS_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="PROCESS_NAME" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ShadeMaster">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SHM_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="SHM_FORMULA_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="SHM_FORMULA_NAME" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

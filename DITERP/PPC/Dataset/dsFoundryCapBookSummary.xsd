@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsFoundryCapBookSummary" targetNamespace="http://tempuri.org/dsFoundryCapBookSummary.xsd" xmlns:mstns="http://tempuri.org/dsFoundryCapBookSummary.xsd" xmlns="http://tempuri.org/dsFoundryCapBookSummary.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsFoundryCapBookSummary" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtFoundryCapBookSummary">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="_x0038_00x600_Machine_Req" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0036_00x450_Machine_Req" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0036_00x300_Machine_Req"  type="xs:double" minOccurs="0" />
+              <xs:element name="_x0035_00x350_Machine_Req" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0038_00x600_Available"  type="xs:double" minOccurs="0" />
+              <xs:element name="_x0036_00x450_Available"  type="xs:double" minOccurs="0" />
+              <xs:element name="_x0036_00x300_Available"  type="xs:double" minOccurs="0" />
+              <xs:element name="_x0035_00x350_Available" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0038_00x600_Short_Excess"  type="xs:double" minOccurs="0" />
+              <xs:element name="_x0036_00x450_Short_Excess"  type="xs:double" minOccurs="0" />
+              <xs:element name="_x0036_00x300_Short_Excess"  type="xs:double" minOccurs="0" />
+              <xs:element name="_x0035_00x350_Short_Excess" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0038_00x600_Cast_Machine_Req"  type="xs:double" minOccurs="0" />
+              <xs:element name="_x0031_000x800_Cast_Machine_Req" type="xs:double" minOccurs="0" />
+              <xs:element name="STAND_ALONE_Machine_Req" type="xs:double" minOccurs="0" />
+              <xs:element name="HORIZONTAL_Machine_Req" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0038_00x600_Cast_Available" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0031_000x800_Cast_Available" type="xs:double" minOccurs="0" />
+              <xs:element name="STAND_ALONE_Available" type="xs:double" minOccurs="0" />
+              <xs:element name="HORIZONTAL_Available" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0038_00x600_Cast_Short_Excess" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0031_000x800_Cast_Short_Excess" type="xs:double" minOccurs="0" />
+              <xs:element name="STAND_ALONE_Short_Excess" type="xs:double" minOccurs="0" />
+              <xs:element name="HORIZONTAL_Short_Excess" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

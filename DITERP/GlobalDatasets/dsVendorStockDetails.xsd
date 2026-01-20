@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsVendorStockDetails" targetNamespace="http://tempuri.org/dsVendorStockDetails.xsd" xmlns:mstns="http://tempuri.org/dsVendorStockDetails.xsd" xmlns="http://tempuri.org/dsVendorStockDetails.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsVendorStockDetails" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtVenderStockDetailBOM">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CL_CH_NO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CL_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CL_P_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CL_I_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CL_DOC_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="CL_DOC_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CL_CQTY" type="xs:double" minOccurs="0" />
+              <xs:element name="CL_DOC_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="FINI_I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="FINI_I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="IWD_SQTY" type="xs:double" minOccurs="0" />
+              <xs:element name="OP_BAL" type="xs:double" minOccurs="0" />
+              <xs:element name="CL_BAL" type="xs:double" minOccurs="0" />
+              <xs:element name="IWM_INWARD_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="IWM_CHALLAN_NO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

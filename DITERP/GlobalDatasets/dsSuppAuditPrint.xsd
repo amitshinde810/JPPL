@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSuppAuditPrint" targetNamespace="http://tempuri.org/dsSuppAuditPrint.xsd" xmlns:mstns="http://tempuri.org/dsSuppAuditPrint.xsd" xmlns="http://tempuri.org/dsSuppAuditPrint.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSuppAuditPrint" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsSuppAuditPrint">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SAM_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SAM_FDATE" type="xs:string" minOccurs="0" />
+              <xs:element name="SAM_TDATE" type="xs:string" minOccurs="0" />
+              <xs:element name="SAM_P_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="SAM_QUALITY" type="xs:double" minOccurs="0" />
+              <xs:element name="SAM_DELIVERY" type="xs:double" minOccurs="0" />
+              <xs:element name="SAM_COST" type="xs:double" minOccurs="0" />
+              <xs:element name="SAM_RESPONSE" type="xs:double" minOccurs="0" />
+              <xs:element name="SAM_TOTAL" type="xs:double" minOccurs="0" />
+              <xs:element name="SAM_BUYER_REMARK" type="xs:string" minOccurs="0" />
+              <xs:element name="SAM_QA_REMARK" type="xs:string" minOccurs="0" />
+              <xs:element name="MonthYr" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DeliveryPer" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotPer" type="xs:decimal" minOccurs="0" />
+              <xs:element name="P_CONTACT" type="xs:string" minOccurs="0" />
+              <xs:element name="SCHEDULE" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

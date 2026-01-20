@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRejDetail" targetNamespace="http://tempuri.org/dsRejDetail.xsd" xmlns:mstns="http://tempuri.org/dsRejDetail.xsd" xmlns="http://tempuri.org/dsRejDetail.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRejDetail" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtRejDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="I_CODE" msdata:Caption="DataColumn1" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CODENO" msdata:Caption="DataColumn2" type="xs:string" minOccurs="0" />
+              <xs:element name="I_NAME" msdata:Caption="DataColumn3" type="xs:string" minOccurs="0" />
+              <xs:element name="PROD_QTY" msdata:Caption="DataColumn4" type="xs:double" minOccurs="0" />
+              <xs:element name="PROD_AMT" msdata:Caption="DataColumn1" type="xs:double" minOccurs="0" />
+              <xs:element name="R1_REJ_QTY" msdata:Caption="DataColumn2" type="xs:double" minOccurs="0" />
+              <xs:element name="R1_REJ_AMT" msdata:Caption="DataColumn3" type="xs:double" minOccurs="0" />
+              <xs:element name="R2_REJ_QTY" msdata:Caption="DataColumn4" type="xs:double" minOccurs="0" />
+              <xs:element name="R2_REJ_AMT" msdata:Caption="DataColumn1" type="xs:double" minOccurs="0" />
+              <xs:element name="R3_REJ_QTY" msdata:Caption="DataColumn2" type="xs:double" minOccurs="0" />
+              <xs:element name="R3_REJ_AMT" msdata:Caption="DataColumn3" type="xs:double" minOccurs="0" />
+              <xs:element name="R4A_REJ_QTY" msdata:Caption="DataColumn4" type="xs:double" minOccurs="0" />
+              <xs:element name="R4_REJ_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="R4_REJ_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="R5_REJ_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="R5_REJ_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="R6_REJ_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="R6_REJ_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="IRN_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="R4A_REJ_AMT" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

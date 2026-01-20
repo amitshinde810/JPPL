@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsInwardSuppWise" targetNamespace="http://tempuri.org/dsInwardSuppWise.xsd" xmlns:mstns="http://tempuri.org/dsInwardSuppWise.xsd" xmlns="http://tempuri.org/dsInwardSuppWise.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsInwardSuppWise" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="InwardSuppWise">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IWM_NO" type="xs:int" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="IWM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOD_ORDER_QTY" type="xs:int" minOccurs="0" />
+              <xs:element name="IWM_CHALLAN_NO" type="xs:int" minOccurs="0" />
+              <xs:element name="IWM_CHAL_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IWD_REV_QTY" type="xs:int" minOccurs="0" />
+              <xs:element name="IWD_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="SIT_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="UOM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_PO_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="PO_T_SHORT_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="PRO_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="IWM_INWARD_TYPE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDispatchRegister" targetNamespace="http://tempuri.org/dsDispatchRegister.xsd" xmlns:mstns="http://tempuri.org/dsDispatchRegister.xsd" xmlns="http://tempuri.org/dsDispatchRegister.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDispatchRegister" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtDispatchRegister">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="INM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="INM_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="INM_INVOICE_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="INM_P_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="I_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CAT_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="I_CAT_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_UOM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="I_UOM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="SPOM_PO_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SPOM_PONO" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_PROJECT" type="xs:string" minOccurs="0" />
+              <xs:element name="SPOM_PROJ_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="P_VEND_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="P_PARTY_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="P_ADD1" type="xs:string" minOccurs="0" />
+              <xs:element name="IND_CON_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="IND_E_TARIFF_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="E_SAC_NO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

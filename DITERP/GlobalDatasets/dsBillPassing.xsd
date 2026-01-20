@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsBillPassing" targetNamespace="http://tempuri.org/dsBillPassing.xsd" xmlns:mstns="http://tempuri.org/dsBillPassing.xsd" xmlns="http://tempuri.org/dsBillPassing.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsBillPassing" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BPM_INV_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="BPM_INV_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="BPM_BASIC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_EXCIES_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_ECESS_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_HECESS_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_TAX_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_DISCOUNT_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_DISC_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_FREIGHT" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_PACKING_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_OCTRO_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_G_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="BPM_DISC_PER" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_ACCESS_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_BE_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_GCESS" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_GSHCESS" type="xs:double" minOccurs="0" />
+              <xs:element name="INM_TAXABLE_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_TAX_PER" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_OTHER_AMT" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_INSURRANCE" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_TRANSPORT" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_ROUND_OFF" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_ADD_DUTY" type="xs:double" minOccurs="0" />
+              <xs:element name="BPM_NET_AMT" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsShade" targetNamespace="http://tempuri.org/dsShade.xsd" xmlns:mstns="http://tempuri.org/dsShade.xsd" xmlns="http://tempuri.org/dsShade.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsShade" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtShade">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SHM_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="SHM_FORMULA_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="SHM_FORMULA_NAME" type="xs:string" />
+              <xs:element name="SHM_REMARK" type="xs:string" minOccurs="0" />
+              <xs:element name="SHM_PROCESS_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="PROCESS_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SHM_PROCESS_STEPS" type="xs:int" minOccurs="0" />
+              <xs:element name="I_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="I_CODENO" type="xs:string" minOccurs="0" />
+              <xs:element name="SHM_QTY_KG" type="xs:double" minOccurs="0" />
+              <xs:element name="SHM_QTY_LTR" type="xs:double" minOccurs="0" />
+              <xs:element name="SHM_RATE" type="xs:double" minOccurs="0" />
+              <xs:element name="I_DENSITY" type="xs:double" minOccurs="0" />
+              <xs:element name="I_PIGMENT" type="xs:double" minOccurs="0" />
+              <xs:element name="I_SOLIDS" type="xs:double" minOccurs="0" />
+              <xs:element name="I_VOLATILE" type="xs:double" minOccurs="0" />
+              <xs:element name="SHM_VOL_SOLID" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
