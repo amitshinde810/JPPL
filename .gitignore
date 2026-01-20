@@ -1,0 +1,17 @@
+ 
+# Ignore ASP.NET auto-generated refresh files
+DITERP/Bin/*.dll.refresh
+
+# Visual Studio user-specific files
+*.suo
+*.user
+*.cache
+.vs/
+
+# Runtime / upload folders
+DITERP/UploadPath/
+PrecompiledWeb/
+
+# Build output
+bin/
+obj/
